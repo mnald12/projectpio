@@ -14,6 +14,9 @@
 .display .d-left h2 {
    font-size: 26px;
 }
+.display .d-left p {
+   font-family: Courier;
+}
 .display .d-left a {
    font-size: 22px;
    color: darkviolet;
@@ -36,16 +39,18 @@ strong {
    top: 85px;
 }
 
-
 .display2 {
    width: 100%;
    padding: 30px;
    display: flex;
    gap: 20px;
+   position: relative;
 }
 .display2 .d-left {
    width: 400px;
-   height: auto;
+   height: 100%;
+   position: sticky;
+   top: 60px;
 }
 .display2 .d-left img {
    width: 100%;
@@ -61,6 +66,7 @@ strong {
    font-size: 22px;
 }
 .display2 .d-right p {
+   font-family: Courier;
    font-size: 17px;
 }
 strong {
